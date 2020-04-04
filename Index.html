@@ -1,27 +1,35 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Multibank - Forex Broker</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+<html lang="en">
 
-  <!-- Body starts from here -->
-  <body>
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> </title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/animate.min.css" rel="stylesheet" type="text/css" media="all">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  
+</head>
+<body>
+
+ 
+
+
+
+
+
     <!-- Top Navigation Bar -->
     <nav class="navbar navbar-expand-lg bg-dark">
-      <a class="navbar-brand" href="#"><img id="logo" src="images/logo.svg"/></a>
+      <a class="navbar-brand" href="#"><img id="logo" src="images/logo.svg" alt="Multibank Logo"/></a>
+     
+
+
       <button
-        class="navbar-toggler bg-white mr-3  d-lg-flex d-none"
+        class="navbar-toggler bg-white mr-3  d-none"
         style="color: black;"
         type="button"
         data-toggle="collapse"
@@ -32,6 +40,10 @@
       >
         <i class="fa fa-bars"></i>
       </button>
+
+
+
+
       <div
         class="collapse navbar-collapse justify-content-end  d-none"
         id="navbarSupportedContent"
@@ -54,33 +66,36 @@
           </li>
         </ul>
       </div>
-    </nav>
+
+
+
+</nav>
+
+
+
+
+
+
+
+
 
     <!-- Navigation bar with Dropdown menu -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+
+
       <button
-        class="navbar-toggler ml-auto mr-3"
-        type="button"
-        data-toggle="collapse"
-        data-target="#dropdownNavbar"
-        aria-controls="dropdownNavbar"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+        class="navbar-toggler ml-auto mr-3" type="button" data-toggle="collapse" data-target="#dropdownNavbar" aria-controls="dropdownNavbar"aria-expanded="false"aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
+
+
       <div class="collapse navbar-collapse" id="dropdownNavbar">
+
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle dropdown-trigger1"
-              id="1"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              href="#"
-            >
+           
+            <a class="nav-link dropdown-toggle dropdown-trigger1"id="1"data-toggle="dropdown"aria-haspopup="true"aria-expanded="false"href="#">
               <span>Products</span>
               <div
                 class="custom-carret"
@@ -91,6 +106,9 @@
                 aria-expanded="false"
               ></div>
             </a>
+
+
+
             <div
               class="dropdown-menu dropdown-main-container1"
               aria-labelledby="1"
@@ -104,6 +122,10 @@
                   functional products</span
                 >
               </div>
+
+
+
+
               <div class="dropdown-right-container"id="drop5">
                 <span class="dropdown-item font-weight-bold text-center"
                   >Products</span
@@ -114,8 +136,16 @@
                 <a class="dropdown-item nav-link" href="#">Indices</a>
                 <a class="dropdown-item nav-link" href="#">Commodities</a>
               </div>
+
+
+
             </div>
           </li>
+
+
+
+
+
 
           <li class="nav-item dropdown">
             <a
@@ -126,6 +156,7 @@
               aria-expanded="false"
               href="#"
             >
+
               <span>Platforms</span>
               <div
                 class="custom-carret"
@@ -302,6 +333,7 @@
                 src="images/chart.png"
                 style="width:27px; height:17px"
                 class="ml-2"
+                alt="chart-logo"
               />
               My Multibank
             </a>
@@ -310,6 +342,7 @@
             <img
               src="images/uk-flag.svg"
               style="width: 50px; height: 25px; margin-right: 10px;"
+              alt="language-flag"
             />
             <div class="d-flex flex-column">
               <span style="color: darkgrey;">Lanuage</span>
@@ -337,8 +370,8 @@
     </nav>
 
     <!-- Home Page Main Content -->
-    <section id="homepage-main">
-      <div id="homepage-main-left" class="order-lg-1 text-center">
+    <section id="homepage-main" >
+      <div id="homepage-main-left" class="order-lg-1 text-center wow slideInRight">
         <h1 style="font-size: 35px;">
           <span class="top-1">Trade Forex, Shares & Metals With </span><br />
           <span
@@ -408,17 +441,17 @@
         </div>
         <div class="bottom-buttons">
           <button class="left-button">TRY FREE DEMO</button>
-          <button class="right-button">OPEN AN ACCOUNT</button>
+          <button class="" id="bonus-button">OPEN AN ACCOUNT</button>
         </div>
       </div>
 
-      <div id="homepage-main-right" class="order-lg-2 ">
+      <div id="homepage-main-right" class="order-lg-2 wow slideInLeft">
         <div id="comp-img-1">
-          <img src="images/homepage-main-right-top.png" style="width: 100%;" />
+          <img src="images/homepage-main-right-top.png" style="width: 100%;"  alt="System Image"/>
           <div id="computer-bottom"></div>
         </div>
         <div id="comp-img-2">
-          <img src="images/homepage-main-right-bottom.png" style="width: 100%;" />
+          <img src="images/homepage-main-right-bottom.png" style="width: 100%;" alt="System Image"/>
         </div>
       </div>
     </section>
@@ -426,11 +459,11 @@
     <!-- Claim your bonus section -->
     <section class="bonus-container pb-3 pt-3">
       <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center wow zoomIn">
           <div
             class="col-lg-5 col-md-5 col-10 offset-1 offset-lg-0  offset-md-0 text-center d-flex justify-content-lg-end justify-content-md-end justify-content-center pt-lg-0 pt-md-0 pt-3 pb-3"
           >
-            <img src="images/get_your_bonus_img.jpg" alt="" class="get-bonus-img" />
+            <img src="images/get_your_bonus_img.jpg" alt="Bonus Image" class="get-bonus-img  " />
           </div>
           <div
             class="col-lg-6 col-md-6 col-10 offset-md-1 offset-1 offset-lg-1 pr-lg-3"
@@ -448,8 +481,7 @@
             </ul>
             <a class="btn-terms" href="#">Terms &amp; Conditions Apply</a>
             <div class="mt-3">
-              <button class="right-button bonus-button mt-3 pb-3">
-                <a class="btn" href="#">Claim Your Bonus</a>
+              <button class="mt-3" id="bonus-button">Claim Your Bonus
               </button>
             </div>
           </div>
@@ -472,8 +504,9 @@
             </h2>
           </div>
           <div
-            class="col-lg-4 col-md-4 col-sm-6 col-12 mb-lg-0 mb-md-0 mb-3 text-center product-offering-box-outer d-flex justify-content-center"
+            class="col-lg-4 col-md-4 col-sm-6 col-12 mb-lg-0 mb-md-0 mb-3 text-center product-offering-box-outer d-flex justify-content-center wow slideInLeft delay1"
           >
+
             <div class="product-offering-card">
               <a class="" href="#">
                 <div class="product-offering-box-img">
@@ -491,14 +524,16 @@
                 </div>
               </a>
             </div>
+
+
           </div>
           <div
-            class="col-lg-4 col-md-4 col-sm-6 col-12 mb-lg-0 mb-md-0 mb-3 text-center product-offering-box-outer d-flex justify-content-center"
+            class="col-lg-4 col-md-4 col-sm-6 col-12 mb-lg-0 mb-md-0 mb-3 text-center product-offering-box-outer d-flex justify-content-center wow slideInLeft delay2"
           >
             <div class="product-offering-card">
               <a class="" href="#">
                 <div class="product-offering-box-img">
-                  <img src="images/product_metals.jpg" class="offer-image" alt="" />
+                  <img src="images/product_metals.jpg" class="offer-image" alt="Product Metals" />
                 </div>
                 <div class="product-offering-box-content">
                   <h3
@@ -511,13 +546,16 @@
               </a>
             </div>
           </div>
+         
+
+
+
           <div
-            class="col-lg-4 col-md-4 col-sm-6 col-12 mb-lg-0 mb-md-0 mb-3 text-center product-offering-box-outer d-flex justify-content-center"
-          >
+            class="col-lg-4 col-md-4 col-sm-6 col-12 mb-lg-0 mb-md-0 mb-3 text-center product-offering-box-outer d-flex justify-content-center wow slideInLeft delay3">
             <div class="product-offering-card">
               <a class="" href="#">
                 <div class="product-offering-box-img">
-                  <img src="images/product_shares.jpg" class="offer-image" alt="" />
+                  <img src="images/product_shares.jpg" class="offer-image" alt="product shares" />
                 </div>
                 <div class="product-offering-box-content">
                   <span
@@ -671,40 +709,53 @@
           <div
             class="col-lg-4 col-md-4 col-10 offset-1 offset-lg-0 offset-md-0 no-padding mobile-padding"
           >
+          <a href="#">
             <div class="partnerships-box-content item-col1">
-              <a href="#">Partnerships</a>
-              <img src="images/grid-partnerships.png" />
+              <span>Partnerships</span>
+              <img src="images/grid-partnerships.png" alt="Partnerships"class=""/>
             </div>
+            </a>
+
           </div>
 
           <div
             class="col-lg-4 col-md-4 col-10 offset-1 offset-lg-0 offset-md-0 mobile-padding"
           >
+          <a href="#">
             <div class="partnerships-box-content item-col2">
-              <a href="#">Frenchise</a>
-              <img src="images/grid-frenchise.png" />
+              <span>Frenchise</span>
+              <img src="images/grid-frenchise.png" alt="Frenchise"/>
             </div>
+          </a>
+            <a href="#">
             <div class="partnerships-box-content item-col3">
-              <a href="#">Introducing Brokers</a>
-              <img src="images/grid-introducing-brokers.png" />
+              <span>Introducing Brokers</span>
+              <img src="images/grid-introducing-brokers.png" alt="Introducing Broker"/>
             </div>
+            </a>
           </div>
 
           <div
             class="col-lg-4 col-md-4 col-10 offset-1 offset-lg-0 offset-md-0 no-padding mobile-padding"
           >
+          <a href="#">
             <div class="partnerships-box-content item-col4">
-              <a href="#">White Label</a>
-              <img src="images/grid-white-label.png" />
+              <span>White Label</span>
+              <img src="images/grid-white-label.png" alt="White Label"/>
             </div>
+            </a>
+            <a href="#">
             <div class="partnerships-box-content item-col5">
-              <a href="#">Prime Clients</a>
-              <img src="images/grid-prime-clients.png" />
+              <span>Prime Clients</span>
+              <img src="images/grid-prime-clients.png" alt="Prime Clients"/>
             </div>
+            </a>
+            <a>
             <div class="partnerships-box-content item-col6">
-              <a href="#">Affiliates</a>
-              <img src="images/grid-affiliate.png" />
+              <span>Affiliates</span>
+              <img src="images/grid-affiliate.png" alt="Affiliates"/>
             </div>
+            </a>
           </div>
         </div>
       </div>
@@ -731,7 +782,7 @@
             <div class="award-container-wrapper">
               <div class="award-container">
                 <a href="#">
-                  <img class="award-image" src="images/awards-image.png" />
+                  <img class="award-image" src="images/awards-image.png" alt="Awards"/>
                   <div class="award-container-text">
                     <h3 class="award-title">
                       Best FX &amp; CFD Broker (Europe &amp; Asia)
@@ -747,7 +798,7 @@
             <div class="award-container-wrapper">
               <div class="award-container">
                 <a href="#">
-                  <img class="award-image" src="images/awards-image.png" />
+                  <img class="award-image" src="images/awards-image.png" alt="Awards"/>
                   <div class="award-container-text">
                     <h3 class="award-title">
                       Best FX &amp; CFD Broker (Europe &amp; Asia)
@@ -763,7 +814,7 @@
             >
               <div class="award-container border-right-0">
                 <a href="#">
-                  <img class="award-image" src="images/awards-image.png" />
+                  <img class="award-image" src="images/awards-image.png" alt="Awards"/>
                   <div class="award-container-text">
                     <h3 class="award-title">
                       Best FX &amp; CFD Broker (Europe &amp; Asia)
@@ -869,7 +920,7 @@
 
                 <span class="contact-title mex-m-b-10 mex-m-t-20">Phone</span>
                 <div class="mex-m-b-10 ">
-                  <img class="cs-country-icon" src="images/usa.png" alt="" /><a
+                  <img class="cs-country-icon" src="images/usa.png" alt="Flag" /><a
                     class="cs-country-number"
                     href="tel:+12139924748?call"
                     >USA: +1 213 992 4748</a
@@ -954,7 +1005,7 @@
                 </div>
               </div>
              
-              <div class="col-12 p-0">
+              <div class="col-12 p-0 contact-inputs">
                 <label for="" class="d-none">
                   <sup class="sup-size">*</sup></label
                 >
@@ -970,7 +1021,7 @@
                   value=""
                 />
               </div>
-              <div class="col-12 p-0">
+              <div class="col-12 p-0 contact-inputs">
                 <label for="null" class="d-none">
                   <sup class="sup-size">*</sup></label
                 >
@@ -1292,40 +1343,28 @@
       exists that you could sustain a loss in excess of your deposited funds. Please refer to specific
       risk warning for each regulated entity during the account opening process.
       </p>
-      <p style="border-top-width: 1px; border-top-style: solid; border-top-color: #273c50; margin-top: 30px; padding-top: 35px;"><a href="privacy-policy.html" target="_parent">Privacy Policy </a> | <a href="cookie-policy.html" target="_parent"> Cookie
-      Policy</a> | <a href="terms-conditions.html" target="_parent">Terms &amp; Conditions </a> | <a href="website-disclaimer.html" target="_parent"> Website Disclaimer </a> | <a href="risk-warning.html" target="_parent"> Risk
+      <p style="border-top-width: 1px; border-top-style: solid; border-top-color: #273c50; margin-top: 30px; padding-top: 35px;"><a href="#" target="_parent">Privacy Policy </a> | <a href="#" target="_parent"> Cookie
+      Policy</a> | <a href="#" target="_parent">Terms &amp; Conditions </a> | <a href="#" target="_parent"> Website Disclaimer </a> | <a href="#" target="_parent"> Risk
       Warning</a>
       </p>
       </div>
       </div>
       </div>
       </section>
+    
+    
 
 
 
-    <!-- JS CDN's import here -->
+      <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/animate.js"></script>
+  <script src="js/animate.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script> new WOW().init(); </script>
 
-    <!-- Country code Picker -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="International-Telephone-Input-Plugin/js/intlInputPhone.min.js"></script>
-    <!-- ======================================================== -->
+    
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/index.js"></script>
-  </body>
+</body>
 </html>

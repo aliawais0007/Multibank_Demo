@@ -14,7 +14,6 @@ $(document).ready(function() {
     secondDropdown,
     thirdDropdown,
     fourthDropdown,
-    fourthDropdown,
     fifthDropdown
   ];
   $(".dropdown-trigger1").click(function(e) {
@@ -84,11 +83,14 @@ $(document).ready(function() {
   $(".dropdown-trigger5").click(function(e) {
     // Kill click event:
     e.stopPropagation();
+    console.log(dropdownArray)
     dropdownArray.map((item, index) => {
       if (index !== 4) {
+        
         item.css("display", "none");
       }
     });
+    console.log($(".dropdown-main-container5").is(":visible"))
     // Toggle dropdown if not already visible:
     if (!$(".dropdown-main-container5").is(":visible")) {
       $(".dropdown-main-container5").css("display", "flex");
@@ -97,3 +99,5 @@ $(document).ready(function() {
     }
   });
 });
+
+  
